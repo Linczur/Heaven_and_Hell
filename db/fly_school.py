@@ -83,7 +83,7 @@ class Students(Base):
         )
 
 
-def create_fake_students(session, count=2):
+def create_fake_students(session, count=100):
     students_generated = 0
     while students_generated < count:
         try:
